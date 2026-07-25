@@ -9,9 +9,12 @@ export default function MedicationPanel({ medications }) {
       animate={{ opacity: 1, x: 0 }}
       className="glass-card rounded-xl p-5 flex flex-col h-full glow-border"
     >
-      <div className="flex items-center gap-2 mb-4 border-b border-moduleBorder pb-3">
-        <Pill className="w-5 h-5 text-sage" />
-        <h3 className="text-sm font-medium text-slate uppercase tracking-wider">Recommended Medications</h3>
+      <div className="mb-4 border-b border-moduleBorder pb-3">
+        <div className="flex items-center gap-2">
+          <Pill className="w-5 h-5 text-sage" />
+          <h3 className="text-sm font-medium text-slate uppercase tracking-wider">Recommended Medications</h3>
+        </div>
+        <p className="text-[10px] text-slateMuted/60 uppercase tracking-widest mt-1 pl-7">Knowledge Base Retrieval</p>
       </div>
 
       <div className="flex-1 overflow-y-auto pr-2 scrollbar-thin space-y-3">

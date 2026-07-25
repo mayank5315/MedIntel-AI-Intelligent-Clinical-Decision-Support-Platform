@@ -46,9 +46,9 @@ export default function Header() {
         </div>
 
         <div className="flex items-center gap-3">
-          <StatusIndicator label="ML Engine" icon={Activity} delay={0.2} />
-          <StatusIndicator label="DL Network" icon={Network} delay={0.3} />
-          <StatusIndicator label="RAG Pipeline" icon={Database} delay={0.4} />
+          <StatusIndicator label="XGBoost Engine" icon={Activity} delay={0.2} />
+          <StatusIndicator label="DeepDDI Network" icon={Network} delay={0.3} />
+          <StatusIndicator label="LangGraph RAG" icon={Database} delay={0.4} />
         </div>
 
       </div>

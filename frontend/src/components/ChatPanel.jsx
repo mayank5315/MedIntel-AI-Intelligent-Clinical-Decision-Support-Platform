@@ -153,7 +153,7 @@ export default function ChatPanel({ diagnosisContext }) {
     if (diagnosisContext) {
       setMessages([{
         role: 'assistant',
-        content: `Hello! I'm the **MedIntel AI Clinical Assistant**. I've reviewed the diagnosis results for this patient.\n\nThe primary diagnosis is **${diagnosisContext.prediction?.predicted_disease || 'Unknown'}** with a confidence of **${diagnosisContext.prediction?.confidence || 0}%** and a safety score of **${diagnosisContext.safety_score ?? 'N/A'}/100** (${diagnosisContext.risk_level || 'Unknown'}).\n\nFeel free to ask me anything about the diagnosis, medications, risk factors, or next steps.`
+        content: `Hello! I'm the **MedIntel AI Clinical Assistant**. I've reviewed the diagnosis results for this patient.\n\nThe primary diagnosis is **${diagnosisContext.prediction?.predicted_disease || 'Unknown'}** with a prediction probability of **${diagnosisContext.prediction?.confidence || 0}%** and a drug interaction safety score of **${diagnosisContext.safety_score ?? 'N/A'}/100** (${diagnosisContext.risk_level || 'Unknown'}).\n\nFeel free to ask me anything about the diagnosis, medications, risk factors, or next steps.`
       }]);
       setError(null);
     }

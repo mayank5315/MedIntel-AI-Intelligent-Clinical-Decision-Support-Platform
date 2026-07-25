@@ -23,20 +23,21 @@ export default function DiagnosisCard({ prediction }) {
       animate={{ opacity: 1, y: 0 }}
       className="glass-card rounded-xl p-5 flex flex-col h-full glow-border"
     >
-      <div className="flex items-center gap-2 mb-4">
+      <div className="flex items-center gap-2 mb-1">
         <Stethoscope className="w-5 h-5 text-slateMuted" />
         <h3 className="text-sm font-medium text-slateMuted uppercase tracking-wider">Primary Diagnosis</h3>
       </div>
+      <p className="text-[10px] text-slateMuted/60 uppercase tracking-widest mb-3 pl-7">XGBoost Classifier · Disease Prediction Model</p>
 
       <div className="flex items-end justify-between mb-2">
         <h2 className="text-2xl font-bold text-slate leading-tight">{predicted_disease || 'Unknown'}</h2>
         <div className="flex flex-col items-end">
           <span className={`text-2xl font-bold ${textColorClass}`}>{confidence}%</span>
-          <span className="text-[10px] text-slateMuted uppercase tracking-wider">Confidence</span>
+          <span className="text-[10px] text-slateMuted uppercase tracking-wider">Prediction Probability</span>
         </div>
       </div>
 
-      {/* Main Confidence Bar */}
+      {/* Main Probability Bar */}
       <div className="w-full h-2 bg-charcoal rounded-full overflow-hidden mb-6">
         <motion.div 
           initial={{ width: 0 }}

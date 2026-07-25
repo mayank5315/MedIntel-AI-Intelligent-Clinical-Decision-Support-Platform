@@ -3,6 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Activity, X, Search, Loader2, Plus } from 'lucide-react';
 import { getSymptoms } from '../api/client';
 
+const COMMON_ALLERGIES = [
+  'Penicillin', 'Sulfa drugs', 'NSAIDs', 'Aspirin', 'Ibuprofen',
+  'Latex', 'Codeine', 'Morphine', 'Cephalosporins', 'Peanuts'
+];
+
 export default function PatientForm({ onSubmit, isLoading }) {
   const [age, setAge] = useState('');
   const [gender, setGender] = useState('Male');
@@ -10,7 +15,7 @@ export default function PatientForm({ onSubmit, isLoading }) {
   const [selectedSymptoms, setSelectedSymptoms] = useState([]);
   const [symptomSearch, setSymptomSearch] = useState('');
   
-  const [allergyInput, setAllergyInput] = useState('');
+  const [allergySearch, setAllergySearch] = useState('');
   const [allergies, setAllergies] = useState([]);
 
   useEffect(() => {
@@ -38,13 +43,18 @@ export default function PatientForm({ onSubmit, isLoading }) {
     setSelectedSymptoms(selectedSymptoms.filter(s => s !== symptom));
   };
 
-  const handleAddAllergy = (e) => {
-    if (e.key === 'Enter' && allergyInput.trim() !== '') {
+  const handleAddAllergy = (allergy) => {
+    const trimmed = allergy.trim();
+    if (trimmed && !allergies.includes(trimmed)) {
+      setAllergies([...allergies, trimmed]);
+    }
+    setAllergySearch('');
+  };
+
+  const handleAllergyKeyDown = (e) => {
+    if (e.key === 'Enter' && allergySearch.trim() !== '') {
       e.preventDefault();
-      if (!allergies.includes(allergyInput.trim())) {
-        setAllergies([...allergies, allergyInput.trim()]);
-      }
-      setAllergyInput('');
+      handleAddAllergy(allergySearch);
     }
   };
 
@@ -69,6 +79,11 @@ export default function PatientForm({ onSubmit, isLoading }) {
     s.toLowerCase().includes(symptomSearch.toLowerCase()) && 
     !selectedSymptoms.includes(s)
   ).slice(0, 5); // Show top 5
+
+  const filteredAllergies = COMMON_ALLERGIES.filter(a =>
+    a.toLowerCase().includes(allergySearch.toLowerCase()) &&
+    !allergies.includes(a)
+  ).slice(0, 5);
 
   const formVariants = {
     hidden: { opacity: 0 },
@@ -130,14 +145,14 @@ export default function PatientForm({ onSubmit, isLoading }) {
           <label className="text-xs font-medium text-slateMuted uppercase tracking-wide">Reported Symptoms <span className="text-danger">*</span></label>
           
           <div className="relative">
-            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+            <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
               <Search className="h-4 w-4 text-slateMuted" />
             </div>
             <input
               type="text"
               value={symptomSearch}
               onChange={(e) => setSymptomSearch(e.target.value)}
-              className="bg-charcoal border border-moduleBorder text-slate rounded-md focus:border-sage focus:outline-none pl-10 pr-3 py-2 w-full transition-all duration-200"
+              className="bg-charcoal border border-moduleBorder text-slate rounded-md focus:border-sage focus:outline-none pl-11 pr-3 py-2 w-full transition-all duration-200"
               placeholder="Search symptoms..."
             />
             
@@ -190,14 +205,46 @@ export default function PatientForm({ onSubmit, isLoading }) {
 
         <motion.div variants={itemVariants} className="space-y-3">
           <label className="text-xs font-medium text-slateMuted uppercase tracking-wide">Known Allergies</label>
-          <input
-            type="text"
-            value={allergyInput}
-            onChange={(e) => setAllergyInput(e.target.value)}
-            onKeyDown={handleAddAllergy}
-            className="bg-charcoal border border-moduleBorder text-slate rounded-md focus:border-sand focus:outline-none px-3 py-2 w-full transition-all duration-200"
-            placeholder="Type allergy and press Enter..."
-          />
+
+          <div className="relative">
+            <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
+              <Search className="h-4 w-4 text-slateMuted" />
+            </div>
+            <input
+              type="text"
+              value={allergySearch}
+              onChange={(e) => setAllergySearch(e.target.value)}
+              onKeyDown={handleAllergyKeyDown}
+              className="bg-charcoal border border-moduleBorder text-slate rounded-md focus:border-sand focus:outline-none pl-11 pr-3 py-2 w-full transition-all duration-200"
+              placeholder="Search known allergies..."
+            />
+
+            <AnimatePresence>
+              {allergySearch && filteredAllergies.length > 0 && (
+                <motion.div 
+                  initial={{ opacity: 0, y: -5 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -5 }}
+                  className="absolute z-20 top-full left-0 right-0 mt-1 bg-module border border-moduleBorder rounded-md shadow-xl overflow-hidden"
+                >
+                  {filteredAllergies.map(allergy => (
+                    <button
+                      key={allergy}
+                      type="button"
+                      onClick={() => handleAddAllergy(allergy)}
+                      className="w-full text-left px-4 py-2 text-sm text-slate hover:bg-sand/10 hover:text-sand transition-colors flex items-center justify-between"
+                    >
+                      {allergy}
+                      <Plus className="w-3 h-3" />
+                    </button>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+
+          <p className="text-[10px] text-slateMuted/60 -mt-1">Cross-checked against WHO drug-allergy interaction data</p>
+
           <div className="flex flex-wrap gap-2 min-h-[30px]">
             <AnimatePresence>
               {allergies.map(allergy => (
@@ -215,6 +262,9 @@ export default function PatientForm({ onSubmit, isLoading }) {
                 </motion.span>
               ))}
             </AnimatePresence>
+            {allergies.length === 0 && (
+              <span className="text-sm text-slateMuted/50 italic py-1">No known allergies</span>
+            )}
           </div>
         </motion.div>
 

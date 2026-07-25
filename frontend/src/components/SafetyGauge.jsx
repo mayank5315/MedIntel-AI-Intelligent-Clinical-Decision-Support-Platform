@@ -22,6 +22,23 @@ export default function SafetyGauge({ safety_score, risk_level }) {
     return '#EF4444'; // Danger
   };
 
+  const getSummary = (level) => {
+    switch ((level || '').toLowerCase()) {
+      case 'low risk':
+      case 'low':
+        return 'No critical drug-drug interactions or allergy conflicts detected.';
+      case 'moderate risk':
+      case 'moderate':
+      case 'medium':
+        return 'Some potential interactions found — clinical review recommended.';
+      case 'high risk':
+      case 'high':
+        return 'Significant interaction risk detected — immediate review required.';
+      default:
+        return 'Interaction analysis unavailable.';
+    }
+  };
+
   const color = getColor(safety_score);
 
   return (
@@ -31,12 +48,15 @@ export default function SafetyGauge({ safety_score, risk_level }) {
       transition={{ delay: 0.1 }}
       className="glass-card rounded-xl p-5 flex flex-col h-full items-center justify-center glow-border relative"
     >
-      <div className="absolute top-5 left-5 flex items-center gap-2">
-        <Shield className="w-5 h-5 text-slateMuted" />
-        <h3 className="text-sm font-medium text-slateMuted uppercase tracking-wider">Safety Index</h3>
+      <div className="absolute top-5 left-5">
+        <div className="flex items-center gap-2">
+          <Shield className="w-5 h-5 text-slateMuted" />
+          <h3 className="text-sm font-medium text-slateMuted uppercase tracking-wider">Drug Interaction Safety Score</h3>
+        </div>
+        <p className="text-[10px] text-slateMuted/60 uppercase tracking-widest mt-1 pl-7">DeepDDI Neural Network</p>
       </div>
 
-      <div className="relative w-40 h-40 mt-6 flex items-center justify-center">
+      <div className="relative w-40 h-40 mt-8 flex items-center justify-center">
         {/* Background Circle */}
         <svg className="w-full h-full transform -rotate-90">
           <circle
@@ -78,6 +98,10 @@ export default function SafetyGauge({ safety_score, risk_level }) {
         <div className="w-2 h-2 rounded-full" style={{ backgroundColor: color }}></div>
         <span className="text-sm font-medium text-slate uppercase tracking-wider">{risk_level || 'Unknown Risk'}</span>
       </div>
+
+      <p className="text-xs text-slateMuted text-center mt-3 px-4 leading-snug max-w-[260px]">
+        {getSummary(risk_level)}
+      </p>
     </motion.div>
   );
 }

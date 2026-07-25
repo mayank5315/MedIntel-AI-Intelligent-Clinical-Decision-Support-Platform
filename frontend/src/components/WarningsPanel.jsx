@@ -23,9 +23,12 @@ export default function WarningsPanel({ warnings }) {
       transition={{ delay: 0.2 }}
       className="glass-card rounded-xl p-5 flex flex-col h-full glow-border"
     >
-      <div className="flex items-center gap-2 mb-4 border-b border-moduleBorder pb-3">
-        <AlertTriangle className="w-5 h-5 text-amber" />
-        <h3 className="text-sm font-medium text-slate uppercase tracking-wider">Clinical Alerts</h3>
+      <div className="mb-4 border-b border-moduleBorder pb-3">
+        <div className="flex items-center gap-2">
+          <AlertTriangle className="w-5 h-5 text-amber" />
+          <h3 className="text-sm font-medium text-slate uppercase tracking-wider">Clinical Alerts</h3>
+        </div>
+        <p className="text-[10px] text-slateMuted/60 uppercase tracking-widest mt-1 pl-7">WHO Allergy &amp; DeepDDI Interaction Checks</p>
       </div>
 
       <div className="flex-1 overflow-y-auto pr-2 scrollbar-thin space-y-3">

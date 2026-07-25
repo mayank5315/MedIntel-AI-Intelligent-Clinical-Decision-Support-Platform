@@ -47,9 +47,12 @@ export default function ExplainerPanel({ explanation }) {
         onClick={() => setIsExpanded(!isExpanded)}
         className="w-full px-5 py-4 flex items-center justify-between bg-module hover:bg-module/80 transition-colors border-b border-moduleBorder focus:outline-none"
       >
-        <div className="flex items-center gap-2">
-          <Brain className="w-5 h-5 text-sage" />
-          <h3 className="text-sm font-medium text-slate uppercase tracking-wider">Clinical Reasoning — Agentic RAG Analysis</h3>
+        <div className="flex flex-col items-start">
+          <div className="flex items-center gap-2">
+            <Brain className="w-5 h-5 text-sage" />
+            <h3 className="text-sm font-medium text-slate uppercase tracking-wider">Clinical Reasoning — Agentic RAG Analysis</h3>
+          </div>
+          <p className="text-[10px] text-slateMuted/60 uppercase tracking-widest mt-1 pl-7">LangChain + LangGraph Pipeline</p>
         </div>
         {isExpanded ? <ChevronUp className="w-5 h-5 text-slateMuted" /> : <ChevronDown className="w-5 h-5 text-slateMuted" />}
       </button>
