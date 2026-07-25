@@ -1,0 +1,98 @@
+{
+    "Pneumonia": {
+        "medicines": [
+            {
+                "name": "Azithromycin",
+                "ingredient": "Azithromycin"
+            },
+            {
+                "name": "Amoxicillin",
+                "ingredient": "Amoxicillin"
+            }
+        ]
+    },
+    "Gastritis": {
+        "medicines": [
+            {
+                "name": "Antacid",
+                "ingredient": "Antacid"
+            },
+            {
+                "name": "Omeprazole",
+                "ingredient": "Omeprazole"
+            }
+        ]
+    },
+    "Hypertension": {
+        "medicines": [
+            {
+                "name": "Lisinopril",
+                "ingredient": "Lisinopril"
+            },
+            {
+                "name": "Amlodipine",
+                "ingredient": "Amlodipine"
+            }
+        ]
+    },
+    "Common Cold": {
+        "medicines": [
+            {
+                "name": "Acetaminophen",
+                "ingredient": "Acetaminophen"
+            },
+            {
+                "name": "Ibuprofen",
+                "ingredient": "Ibuprofen"
+            }
+        ]
+    },
+    "Anemia": {
+        "medicines": [
+            {
+                "name": "Folic Acid",
+                "ingredient": "Folic Acid"
+            },
+            {
+                "name": "Ferrous Sulfate",
+                "ingredient": "Ferrous Sulfate"
+            }
+        ]
+    },
+    "Diabetes": {
+        "medicines": [
+            {
+                "name": "Metformin",
+                "ingredient": "Metformin"
+            },
+            {
+                "name": "Glipizide",
+                "ingredient": "Glipizide"
+            }
+        ]
+    },
+    "Migraine": {
+        "medicines": [
+            {
+                "name": "Sumatriptan",
+                "ingredient": "Sumatriptan"
+            },
+            {
+                "name": "Ibuprofen",
+                "ingredient": "Ibuprofen"
+            }
+        ]
+    },
+    "Asthma": {
+        "medicines": [
+            {
+                "name": "Albuterol",
+                "ingredient": "Albuterol"
+            },
+            {
+                "name": "Fluticasone",
+                "ingredient": "Fluticasone"
+            }
+        ]
+    }
+}

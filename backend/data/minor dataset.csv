@@ -1,0 +1,209 @@
+Disease,Symptoms,Gender,DateOfBirth,Medicine
+Pneumonia,"Chills, Cough, Shortness of Breath",Male,24-12-1964,Azithromycin
+Gastritis,"Indigestion, Bloating",Female,16-07-1998,Antacid
+Hypertension,"Headache, Fatigue, Dizziness, Blurred Vision",Female,07-12-1984,Lisinopril
+Common Cold,"Runny Nose, Sneezing",Male,03-04-1978,Acetaminophen
+Common Cold,"Sneezing, Runny Nose, Headache",Female,04-03-1981,Ibuprofen
+Anemia,"Dizziness, Fatigue, Pale Skin, Shortness of Breath",Male,04-08-2004,Folic Acid
+Diabetes,"Frequent Urination, Fatigue, Blurred Vision, Weight Loss",Female,16-12-1977,Metformin
+Common Cold,"Headache, Sore Throat",Male,08-12-1979,Ibuprofen
+Pneumonia,"Chills, Chest Pain",Female,22-04-1962,Amoxicillin
+Hypertension,"Chest Pain, Fatigue, Headache, Dizziness",Female,22-06-1984,Amlodipine
+Anemia,"Dizziness, Pale Skin, Fatigue, Weakness",Female,26-09-1990,Folic Acid
+Diabetes,"Weight Loss, Frequent Urination, Excessive Thirst",Female,28-07-1981,Metformin
+Diabetes,"Fatigue, Excessive Thirst",Female,17-11-1996,Metformin
+Migraine,"Nausea, Sensitivity to Light",Male,06-03-1956,Sumatriptan
+Migraine,"Sensitivity to Light, Severe Headache",Male,17-02-1997,Ibuprofen
+Gastritis,"Abdominal Pain, Bloating",Male,23-03-2000,Omeprazole
+Common Cold,"Fever, Runny Nose, Sore Throat, Headache",Female,10-05-1967,Ibuprofen
+Pneumonia,"Chills, Chest Pain, Fatigue, High Fever",Male,26-01-2004,Amoxicillin
+Anemia,"Weakness, Cold Hands, Fatigue",Female,03-08-1979,Ferrous Sulfate
+Pneumonia,"Cough, Chest Pain",Male,17-07-1979,Azithromycin
+Anemia,"Fatigue, Dizziness, Cold Hands, Weakness",Male,26-07-2009,Ferrous Sulfate
+Migraine,"Vomiting, Severe Headache, Nausea, Sensitivity to Light",Male,23-09-1999,Ibuprofen
+Hypertension,"Blurred Vision, Chest Pain, Headache, Fatigue",Male,06-03-1991,Amlodipine
+Asthma,"Chest Tightness, Wheezing, Shortness of Breath, Fatigue",Female,18-04-1992,Albuterol
+Migraine,"Nausea, Vomiting, Severe Headache, Sensitivity to Light",Female,05-05-1962,Sumatriptan
+Migraine,"Severe Headache, Aura, Sensitivity to Light",Female,16-02-1969,Sumatriptan
+Hypertension,"Chest Pain, Dizziness, Fatigue",Male,05-06-2011,Amlodipine
+Asthma,"Wheezing, Cough, Chest Tightness",Male,08-06-1994,Fluticasone
+Gastritis,"Nausea, Vomiting, Loss of Appetite, Indigestion",Male,19-10-1982,Antacid
+Migraine,"Aura, Sensitivity to Light, Severe Headache",Male,18-07-1968,Sumatriptan
+Asthma,"Cough, Fatigue",Male,06-05-2000,Fluticasone
+Diabetes,"Fatigue, Frequent Urination, Blurred Vision, Weight Loss",Female,24-11-1996,Metformin
+Common Cold,"Sore Throat, Cough, Sneezing",Male,31-10-1981,Acetaminophen
+Hypertension,"Fatigue, Chest Pain, Dizziness",Male,06-12-1958,Amlodipine
+Common Cold,"Cough, Sore Throat, Runny Nose",Male,01-05-2000,Acetaminophen
+Migraine,"Sensitivity to Light, Severe Headache",Male,20-09-1999,Ibuprofen
+Pneumonia,"Chest Pain, Shortness of Breath, Cough",Male,22-08-1983,Amoxicillin
+Anemia,"Dizziness, Shortness of Breath",Male,20-10-1972,Ferrous Sulfate
+Gastritis,"Loss of Appetite, Abdominal Pain",Female,26-02-1974,Antacid
+Anemia,"Fatigue, Weakness, Dizziness",Female,11-11-2010,Folic Acid
+Asthma,"Shortness of Breath, Cough, Fatigue",Female,30-07-1957,Fluticasone
+Hypertension,"Chest Pain, Headache",Male,28-11-1952,Amlodipine
+Diabetes,"Weight Loss, Excessive Thirst, Blurred Vision, Fatigue",Male,26-08-1999,Glipizide
+Gastritis,"Loss of Appetite, Nausea, Bloating, Vomiting",Male,02-01-2014,Antacid
+Hypertension,"Fatigue, Dizziness, Chest Pain",Male,03-11-1978,Lisinopril
+Pneumonia,"Fatigue, Cough, Chest Pain, Chills",Male,10-07-1967,Azithromycin
+Anemia,"Shortness of Breath, Weakness, Dizziness, Pale Skin",Male,18-07-2007,Ferrous Sulfate
+Common Cold,"Cough, Headache",Male,27-03-1988,Ibuprofen
+Migraine,"Severe Headache, Sensitivity to Light, Aura, Nausea",Male,26-12-2002,Sumatriptan
+Gastritis,"Indigestion, Abdominal Pain, Vomiting, Bloating",Male,28-08-1996,Omeprazole
+Migraine,"Severe Headache, Aura, Sensitivity to Light, Vomiting",Male,04-05-2000,Sumatriptan
+Diabetes,"Frequent Urination, Excessive Thirst",Male,24-01-1990,Glipizide
+Migraine,"Aura, Nausea",Female,13-12-1985,Sumatriptan
+Pneumonia,"Shortness of Breath, Fatigue",Male,29-07-1967,Amoxicillin
+Hypertension,"Blurred Vision, Fatigue",Male,14-09-1957,Lisinopril
+Diabetes,"Blurred Vision, Excessive Thirst, Fatigue",Male,23-04-1982,Metformin
+Gastritis,"Abdominal Pain, Bloating, Indigestion",Male,25-02-1977,Omeprazole
+Common Cold,"Sore Throat, Sneezing, Headache",Male,22-04-1982,Acetaminophen
+Migraine,"Vomiting, Severe Headache",Female,14-11-1963,Ibuprofen
+Hypertension,"Headache, Blurred Vision, Fatigue, Chest Pain",Male,13-03-1965,Amlodipine
+Anemia,"Cold Hands, Fatigue, Pale Skin, Dizziness",Female,20-04-1964,Ferrous Sulfate
+Anemia,"Shortness of Breath, Cold Hands, Fatigue, Weakness",Male,06-07-1969,Ferrous Sulfate
+Diabetes,"Weight Loss, Blurred Vision, Fatigue",Male,19-05-2006,Metformin
+Gastritis,"Indigestion, Loss of Appetite",Male,19-02-1959,Antacid
+Gastritis,"Nausea, Bloating, Abdominal Pain",Female,27-01-1969,Omeprazole
+Migraine,"Severe Headache, Sensitivity to Light",Female,23-08-1982,Ibuprofen
+Hypertension,"Chest Pain, Dizziness, Headache",Female,08-11-1977,Lisinopril
+Diabetes,"Weight Loss, Fatigue, Excessive Thirst, Frequent Urination",Female,23-02-1995,Glipizide
+Common Cold,"Runny Nose, Fever, Sore Throat",Female,02-07-1970,Ibuprofen
+Hypertension,"Headache, Dizziness",Male,20-12-1985,Amlodipine
+Diabetes,"Weight Loss, Blurred Vision, Fatigue",Female,03-08-1950,Metformin
+Migraine,"Sensitivity to Light, Aura, Vomiting",Male,01-01-1990,Ibuprofen
+Common Cold,"Cough, Runny Nose",Female,09-05-1951,Acetaminophen
+Asthma,"Shortness of Breath, Wheezing, Cough",Female,22-02-1973,Fluticasone
+Anemia,"Weakness, Shortness of Breath, Dizziness",Male,18-09-1966,Ferrous Sulfate
+Common Cold,"Sore Throat, Sneezing",Female,21-01-1986,Acetaminophen
+Asthma,"Fatigue, Cough, Wheezing",Male,30-09-1969,Fluticasone
+Common Cold,"Headache, Sore Throat, Cough, Runny Nose",Female,05-01-2001,Ibuprofen
+Common Cold,"Cough, Headache, Sore Throat",Male,27-09-1958,Ibuprofen
+Pneumonia,"Cough, High Fever, Chest Pain",Female,26-05-2014,Azithromycin
+Diabetes,"Fatigue, Frequent Urination",Male,01-08-1964,Glipizide
+Anemia,"Pale Skin, Cold Hands, Fatigue",Male,30-09-1973,Folic Acid
+Migraine,"Severe Headache, Aura, Vomiting",Female,28-02-1991,Ibuprofen
+Migraine,"Nausea, Severe Headache, Vomiting, Aura",Male,28-05-1983,Sumatriptan
+Migraine,"Nausea, Vomiting, Sensitivity to Light, Aura",Female,06-01-1958,Ibuprofen
+Asthma,"Chest Tightness, Cough",Female,16-08-1969,Albuterol
+Anemia,"Cold Hands, Weakness",Female,18-01-1951,Folic Acid
+Migraine,"Nausea, Aura, Severe Headache, Sensitivity to Light",Female,21-10-2012,Sumatriptan
+Diabetes,"Frequent Urination, Excessive Thirst",Male,29-09-1979,Metformin
+Common Cold,"Sneezing, Fever, Cough, Sore Throat",Male,02-11-1970,Acetaminophen
+Asthma,"Shortness of Breath, Cough, Chest Tightness, Wheezing",Male,16-11-1967,Fluticasone
+Diabetes,"Excessive Thirst, Frequent Urination",Male,25-09-1984,Glipizide
+Asthma,"Cough, Shortness of Breath, Fatigue, Chest Tightness",Female,02-06-1993,Fluticasone
+Anemia,"Weakness, Pale Skin",Female,23-08-1962,Ferrous Sulfate
+Asthma,"Shortness of Breath, Fatigue, Wheezing, Cough",Male,30-04-1957,Fluticasone
+Asthma,"Wheezing, Shortness of Breath, Chest Tightness",Female,20-04-1989,Albuterol
+Asthma,"Chest Tightness, Cough, Wheezing, Shortness of Breath",Female,02-07-1964,Fluticasone
+Hypertension,"Headache, Dizziness, Fatigue",Male,08-05-1966,Lisinopril
+Gastritis,"Nausea, Abdominal Pain, Loss of Appetite, Indigestion",Male,11-03-2005,Omeprazole
+Anemia,"Cold Hands, Weakness, Shortness of Breath, Pale Skin",Male,24-09-1987,Folic Acid
+Pneumonia,"Shortness of Breath, Fatigue, Chills, High Fever",Female,06-11-1985,Azithromycin
+Pneumonia,"High Fever, Shortness of Breath, Chills, Cough",Male,11-04-2003,Azithromycin
+Pneumonia,"High Fever, Chest Pain",Female,02-04-1992,Amoxicillin
+Pneumonia,"Chest Pain, High Fever",Male,20-10-1976,Amoxicillin
+Pneumonia,"Cough, Chest Pain, Shortness of Breath",Female,10-01-1977,Amoxicillin
+Common Cold,"Sneezing, Headache",Female,16-12-1972,Ibuprofen
+Hypertension,"Dizziness, Headache, Chest Pain",Male,03-05-1961,Lisinopril
+Migraine,"Aura, Sensitivity to Light",Male,24-02-2010,Sumatriptan
+Gastritis,"Indigestion, Nausea, Loss of Appetite, Vomiting",Male,10-02-1985,Omeprazole
+Gastritis,"Indigestion, Bloating, Nausea, Vomiting",Female,30-08-2007,Omeprazole
+Diabetes,"Blurred Vision, Frequent Urination, Fatigue",Female,02-07-1976,Metformin
+Hypertension,"Blurred Vision, Headache, Dizziness, Fatigue",Female,30-01-1982,Lisinopril
+Common Cold,"Sore Throat, Runny Nose, Cough, Sneezing",Female,08-06-2001,Ibuprofen
+Common Cold,"Sneezing, Fever",Male,01-06-1975,Acetaminophen
+Migraine,"Vomiting, Aura",Female,15-10-1953,Ibuprofen
+Gastritis,"Nausea, Abdominal Pain, Indigestion",Female,20-06-1962,Omeprazole
+Pneumonia,"Fatigue, High Fever, Shortness of Breath",Male,06-09-1958,Azithromycin
+Asthma,"Shortness of Breath, Chest Tightness",Female,29-01-1963,Albuterol
+Pneumonia,"Shortness of Breath, Fatigue",Male,05-10-1966,Amoxicillin
+Anemia,"Dizziness, Weakness, Cold Hands, Shortness of Breath",Male,27-12-2010,Folic Acid
+Gastritis,"Nausea, Indigestion",Male,03-05-2014,Antacid
+Asthma,"Chest Tightness, Fatigue",Female,04-12-1966,Albuterol
+Common Cold,"Runny Nose, Sneezing, Cough, Headache",Female,14-02-1991,Acetaminophen
+Gastritis,"Indigestion, Vomiting",Female,22-10-1971,Antacid
+Pneumonia,"Chest Pain, Chills, High Fever",Female,07-04-1955,Amoxicillin
+Asthma,"Wheezing, Shortness of Breath",Female,29-08-2003,Albuterol
+Diabetes,"Excessive Thirst, Fatigue",Male,25-03-1981,Metformin
+Hypertension,"Dizziness, Chest Pain",Female,12-10-2010,Lisinopril
+Common Cold,"Fever, Headache, Cough",Male,11-04-1978,Ibuprofen
+Pneumonia,"Chills, High Fever, Cough",Female,21-04-1998,Amoxicillin
+Asthma,"Cough, Chest Tightness, Wheezing",Female,31-10-1965,Fluticasone
+Hypertension,"Blurred Vision, Headache",Male,03-02-1951,Lisinopril
+Common Cold,"Sore Throat, Cough",Female,16-06-1951,Acetaminophen
+Gastritis,"Loss of Appetite, Vomiting, Nausea",Female,28-09-1986,Antacid
+Asthma,"Chest Tightness, Cough, Wheezing",Male,22-01-1982,Fluticasone
+Gastritis,"Bloating, Abdominal Pain",Male,30-11-1964,Antacid
+Common Cold,"Cough, Headache",Male,25-08-1952,Acetaminophen
+Migraine,"Aura, Sensitivity to Light, Severe Headache, Vomiting",Female,18-12-1980,Sumatriptan
+Diabetes,"Fatigue, Blurred Vision, Excessive Thirst",Male,10-03-1964,Glipizide
+Diabetes,"Blurred Vision, Excessive Thirst",Male,04-10-1987,Glipizide
+Pneumonia,"Shortness of Breath, Chest Pain, High Fever",Female,06-04-2010,Amoxicillin
+Asthma,"Wheezing, Shortness of Breath, Chest Tightness, Cough",Female,22-03-2011,Albuterol
+Anemia,"Fatigue, Weakness, Pale Skin, Shortness of Breath",Female,05-11-2009,Folic Acid
+Hypertension,"Headache, Chest Pain, Dizziness",Male,18-07-1982,Lisinopril
+Hypertension,"Blurred Vision, Fatigue, Dizziness, Chest Pain",Male,20-03-1996,Amlodipine
+Hypertension,"Dizziness, Fatigue",Male,17-08-1987,Amlodipine
+Pneumonia,"High Fever, Cough, Chest Pain",Male,18-04-1957,Azithromycin
+Diabetes,"Fatigue, Weight Loss, Excessive Thirst, Blurred Vision",Male,11-05-1953,Glipizide
+Pneumonia,"Chills, Shortness of Breath, High Fever, Cough",Female,21-10-2002,Amoxicillin
+Pneumonia,"High Fever, Fatigue",Female,27-07-2002,Amoxicillin
+Pneumonia,"Shortness of Breath, Fatigue",Female,30-06-1985,Amoxicillin
+Asthma,"Chest Tightness, Shortness of Breath",Female,24-03-1995,Albuterol
+Anemia,"Weakness, Fatigue, Cold Hands, Dizziness",Female,08-06-1991,Ferrous Sulfate
+Hypertension,"Chest Pain, Fatigue, Headache, Blurred Vision",Female,24-12-1996,Lisinopril
+Diabetes,"Excessive Thirst, Weight Loss, Frequent Urination",Female,02-02-1975,Glipizide
+Asthma,"Chest Tightness, Shortness of Breath",Male,13-05-1985,Albuterol
+Anemia,"Pale Skin, Weakness, Fatigue",Female,09-03-2005,Ferrous Sulfate
+Gastritis,"Nausea, Loss of Appetite, Abdominal Pain, Bloating",Male,08-01-1970,Omeprazole
+Pneumonia,"Chest Pain, Fatigue, High Fever",Female,06-12-1996,Azithromycin
+Anemia,"Shortness of Breath, Weakness, Pale Skin",Male,17-02-1964,Ferrous Sulfate
+Anemia,"Cold Hands, Weakness, Dizziness",Female,17-05-1973,Ferrous Sulfate
+Asthma,"Fatigue, Shortness of Breath, Chest Tightness",Female,17-09-1978,Fluticasone
+Common Cold,"Sore Throat, Cough, Fever",Male,26-05-1951,Acetaminophen
+Diabetes,"Excessive Thirst, Blurred Vision",Female,21-11-1957,Metformin
+Anemia,"Weakness, Shortness of Breath, Pale Skin, Cold Hands",Female,26-09-2000,Folic Acid
+Anemia,"Dizziness, Weakness",Male,28-10-1986,Folic Acid
+Migraine,"Nausea, Severe Headache",Female,15-06-2002,Ibuprofen
+Diabetes,"Weight Loss, Excessive Thirst",Female,27-04-1970,Metformin
+Gastritis,"Nausea, Bloating, Abdominal Pain",Male,17-05-1973,Antacid
+Gastritis,"Bloating, Indigestion",Female,27-09-2006,Omeprazole
+Asthma,"Wheezing, Chest Tightness",Male,26-06-2013,Fluticasone
+Asthma,"Chest Tightness, Cough, Wheezing, Fatigue",Male,24-08-2013,Albuterol
+Hypertension,"Fatigue, Dizziness, Headache",Female,24-11-1997,Lisinopril
+Common Cold,"Headache, Sneezing, Fever",Female,09-01-1982,Acetaminophen
+Diabetes,"Blurred Vision, Fatigue, Excessive Thirst",Male,20-12-2004,Glipizide
+Hypertension,"Dizziness, Fatigue",Female,24-08-2009,Lisinopril
+Diabetes,"Excessive Thirst, Blurred Vision, Weight Loss, Fatigue",Female,31-10-1960,Metformin
+Gastritis,"Abdominal Pain, Indigestion, Nausea",Male,13-08-1984,Antacid
+Migraine,"Severe Headache, Aura, Nausea, Vomiting",Male,02-01-1976,Ibuprofen
+Migraine,"Severe Headache, Sensitivity to Light",Male,06-04-1989,Sumatriptan
+Hypertension,"Fatigue, Chest Pain",Male,15-05-2015,Amlodipine
+Gastritis,"Nausea, Abdominal Pain, Indigestion",Male,05-07-1994,Omeprazole
+Pneumonia,"Fatigue, Chest Pain, High Fever, Chills",Male,22-04-1978,Amoxicillin
+Migraine,"Severe Headache, Vomiting, Sensitivity to Light",Male,14-10-2012,Sumatriptan
+Pneumonia,"Chills, Cough, High Fever, Chest Pain",Female,11-12-1998,Amoxicillin
+Anemia,"Weakness, Shortness of Breath",Male,28-11-1984,Folic Acid
+Migraine,"Aura, Severe Headache, Nausea, Vomiting",Male,08-07-1990,Sumatriptan
+Gastritis,"Vomiting, Bloating, Indigestion, Loss of Appetite",Male,17-07-1967,Omeprazole
+Pneumonia,"Fatigue, Chills, Chest Pain",Female,16-10-1957,Azithromycin
+Common Cold,"Sneezing, Headache, Sore Throat, Fever",Male,28-12-1976,Ibuprofen
+Hypertension,"Blurred Vision, Chest Pain",Male,19-07-1961,Amlodipine
+Asthma,"Wheezing, Cough",Female,29-06-1984,Albuterol
+Asthma,"Cough, Fatigue, Chest Tightness",Female,04-08-1963,Albuterol
+Hypertension,"Headache, Chest Pain, Blurred Vision",Female,04-12-1999,Lisinopril
+Gastritis,"Nausea, Loss of Appetite, Vomiting",Male,09-03-2013,Omeprazole
+Common Cold,"Runny Nose, Sneezing",Female,17-02-1998,Acetaminophen
+Gastritis,"Nausea, Bloating, Vomiting, Loss of Appetite",Male,24-05-1967,Omeprazole
+Diabetes,"Fatigue, Frequent Urination, Excessive Thirst",Female,11-07-1955,Metformin
+Common Cold,"Headache, Cough, Sore Throat",Female,09-04-1954,Ibuprofen
+Asthma,"Shortness of Breath, Fatigue, Wheezing",Male,29-10-1994,Fluticasone
+Diabetes,"Blurred Vision, Excessive Thirst, Fatigue, Frequent Urination",Male,06-01-1963,Metformin
+Diabetes,"Weight Loss, Fatigue, Blurred Vision",Female,09-06-1954,Metformin
+Anemia,"Dizziness, Shortness of Breath",Female,28-11-1968,Ferrous Sulfate
+Hypertension,"Fatigue, Blurred Vision, Headache",Male,15-07-1992,Amlodipine
+Gastritis,"Abdominal Pain, Bloating",Male,10-09-1975,Antacid
+Migraine,"Severe Headache, Sensitivity to Light, Aura, Nausea",Male,30-07-1998,Sumatriptan
+Anemia,"Cold Hands, Shortness of Breath, Fatigue",Male,12-03-1993,Folic Acid
+Anemia,"Fatigue, Shortness of Breath, Dizziness, Cold Hands",Male,24-06-1953,Ferrous Sulfate
